@@ -94,7 +94,9 @@ a {
 .ingredient{
     display: flex;
 }
-
+.flex{
+  display: flex;
+}
 .reservation-section {
       background-color: #1f1f27;
     }

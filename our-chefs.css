@@ -57,6 +57,8 @@ header {
   height: 60px;
   width: 230px;
   margin-top: 70px;
+   border-style: solid;
+  border-color: #c2a679;
 }
 .call-btn p{
   color: white;
@@ -172,96 +174,6 @@ footer {
   display: flex;
 }
 
-/* .chefs img{ */
-  /* margin-top: 50px; */
-  /* width: 450px; */
-  /* margin-bottom: 40px; */
-  /* margin-left: 100px; */
-  
-  
-/* } */
-
-/* .reservation-section {
-      background-image: url(./reservation-bg.webp);
-      background-size: cover;
-      height: 100vh;
-
-      color: white;
-      text-align: center;
-      padding: 60px 20px;
-      position: relative;
-    }
-
-    .reservation-form {
-      background-color: rgba(0, 0, 0, 0.6);
-      max-width: 600px;
-      margin: auto;
-      padding: 40px;
-      border-radius: 10px;
-    }
-
-    .reservation-form input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: none;
-      background-color: #000;
-    }
-
-    .reservation-form button {
-      padding: 10px 20px;
-      background: white;
-      color: #000;
-      border: none;
-      cursor: pointer;
-    }
-
-    .footer {
-      background-color: #1f1f27;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    .footer-top {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin-bottom: 30px;
-    }
-
-    .footer-part {
-      max-width: 300px;
-      margin: 10px;
-    }
-
-    .footer-logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
-    }
-
-    .footer-bottom {
-      font-size: 14px;
-      color: #ccc;
-      border-top: 1px solid #444;
-      padding-top: 10px;
-    }
-
-    input[type="email"] {
-      padding: 10px;
-      width: 70%;
-      border: none;
-      margin-top: 10px;
-    }
-
-    .subscribe-btn {
-      padding: 10px;
-      background: white;
-      color: black;
-      border: none;
-      cursor: pointer;
-      margin-left: 10px;
-    } */
 
     .reservation {
   background: url("reservation-bg.webp") no-repeat center center/cover;

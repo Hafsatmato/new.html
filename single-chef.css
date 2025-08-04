@@ -45,6 +45,16 @@ header {
 }
 
 
+       .h3-team{
+  display: inline-block; 
+      border-top: 3px solid #d4a760;    
+      border-bottom: 3px solid #d4a760; 
+      padding: 5px 10px;
+      color:white;
+      
+}
+
+
 .top-nav {
   display: flex;
   justify-content: space-between;
@@ -59,6 +69,8 @@ header {
   width: 230px;
   margin-top: 70px;
   border-color: #e1b168;
+   border-style: solid;
+  border-color: #c2a679;
 }
 
 .call-btn p{
@@ -110,7 +122,20 @@ a {
 
 }
 
+.promo{
+  text-align: center;
+  background-color: #343942;
+  margin-bottom: 100px;
+}
+.promo h3{
+  color: white;
+}
+.promo img{
+  margin-top: 50px;
+  width: 900px;
+  height: inherit;;
 
+}
    .container {
   display: flex;
   align-items: flex-start;
@@ -143,97 +168,180 @@ a {
   gap: 20px;
   font-size: 15px;
 }
+    
+    .reservation {
+  background: url("reservation-bg.webp") no-repeat center center/cover;
+  height: 100vh;
+  position: relative;
+}
 
-.reservation-section {
-      background-color: #1f1f27;
-    }
-    .reserve-logo{
-      justify-content: center;
-      display: flex;
-      flex-direction:;
-      
-    }
+.reserve-section {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-    .reservation-form {
-      background-color: rgba(0, 0, 0, 0.6);
-      max-width: 600px;
-      margin: auto;
-      padding: 40px;
-      border-radius: 10px;
-    }
+.form-box {
+  background-color: #1c1c1c;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+}
 
-    .social-icon{
-      margin-top: 70px;
-      margin-left: 200px;
-      
-    }
+.form-box h4 {
+  letter-spacing: 2px;
+  color: white;
+  font-size: 14px;
+}
 
-    .contact{
-      border-top: solid 1px #e1b168;
-      border-bottom: solid 1px #e1b168;
-      border-color: #e1b168;
-      border-width: 10%;
+.form-box h2 {
+  margin: 10px 0 20px;
+  color: white;
+}
 
-    }
-    .end-logo img{
-      margin-left: 300px;
-    }
+.input-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
 
-    .reservation-form button {
-      padding: 10px 20px;
-      background: white;
-      color: #000;
-      border: none;
-      cursor: pointer;
-    }
+.input-grid input {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+    border: 2px solid white;
+}
 
-    .footer {
-      background-color: #1f1f27;
-      color: white;
-      padding: 40px 20px;
-      text-align: center;
-    }
+button {
+  padding: 12px 20px;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-    .footer-top {
-      display: flex;
-      justify-content: space-around;
-      flex-wrap: wrap;
-      margin-bottom: 30px;
-    }
+.footer {
+  background-color: #1c1c1c;
+  padding: 40px 20px 20px;
+}
 
-    .footer-part {
-      max-width: 300px;
-      margin: 10px;
-    }
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
 
-    .footer-logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 20px;
-    }
 
-    .footer-bottom {
-      font-size: 14px;
-      color: #ccc;
-      border-top: 1px solid #444;
-      padding-top: 10px;
-    }
+}
 
-    input[type="email"] {
-      padding: 10px;
-      width: 70%;
-      border: none;
-      margin-top: 10px;
-    }
+.footer-column {
+  flex: 1;
+  margin-top: 15px;
+  min-width: 250px;
+}
 
-    .subscribe-btn {
-      padding: 10px;
-      background: white;
-      color: black;
-      border: none;
-      cursor: pointer;
-      margin-left: 10px;
-    }
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
 
-    .span-color{
-      color: #e1b168;
-    }
+.footer-column p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+}
+
+.logo-circle {
+  
+  padding: 30px;
+  display: inline-block;
+  justify-content: center;
+}
+
+.brand-name {
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  margin: 0 8px;
+  font-size: 20px;
+  
+}
+
+.social-icons a:hover {
+  color: #ccc;
+}
+
+.hours p {
+  font-size: 13px;
+}
+
+
+.subscribe-bar {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.subscribe-bar p{
+  color: white;
+}
+
+
+.subscribe-form {
+  margin-top: 10px;
+}
+
+.subscribe-form input {
+  padding: 8px;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-form button {
+  padding: 8px 16px;
+  background: #fff;
+  color: #000;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+  color: white;
+        border-top: 1px solid #444;
+
+}
+.text-color{
+  color: #e1b168;
+}
+       .h3-reservation{
+  display: inline-block; 
+      border-top: solid #d4a760;    
+      border-bottom:  solid #d4a760; 
+      color:white; 
+      font-size: 20px;   
+}
+
+.working-hours{
+  margin-top: 100px;
+}
